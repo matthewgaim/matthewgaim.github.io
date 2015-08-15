@@ -2,6 +2,14 @@
   border-radius: 50%;
 }
 body {
-  background: url("http://www.wallbeep.com/wp-content/uploads/2015/05/light-grey-cool-black-wallpaper-801x501.jpg");
-  background-size: cover;
+  background-image:url("dark_embroidery.png");
+}
+
+.mainText {
+  font-size: 50px;
+  color:white;
+}
+
+.mainText:hover{
+  color:red;
 }

@@ -1,12 +1,10 @@
 debugger
-function hackathons(){
-  alert("AngelHack 8 SF, Silicon Valley and Teen Hackathon");
+//while(true){
+function checkTime(){
+  var time = new Date();
+  var hours = time.getHours();
+  var seconds = time.getSeconds();
+  var timeHTML = document.getElementById("time");
+  timeHTML.value="The time is " + hours.toString() + ":" + seconds.toString();
 }
-var time = "Hi";//, seconds, hours, theTime;
-/**while(true){
-    time = new Date();
-    seconds = time.getSeconds();
-    hours = time.getHours();
-    theTime = hours.toString() + ":" + seconds.toString();**/
-    document.getElementById("time").innerHTML = "The time is " + time ;
 //}
