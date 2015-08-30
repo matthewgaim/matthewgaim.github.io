@@ -2,14 +2,12 @@
   border-radius: 50%;
 }
 body {
-  background-image:url("dark_embroidery.png");
+  background-image:url("http://38.media.tumblr.com/bf4f2f9e0bece729470590e613cad0c6/tumblr_nti7xg5GkZ1ru39xmo1_500.gif");
+  background-size: cover;
 }
 
 .mainText {
-  font-size: 50px;
-  color:white;
+  font-size: 30px;
+  color:black;
 }
 
-.mainText:hover{
-  color:red;
-}
