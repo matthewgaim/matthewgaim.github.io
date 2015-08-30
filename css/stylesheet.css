@@ -11,3 +11,23 @@ body {
   color:black;
 }
 
+#links {
+	font-size:25px;
+	color:red;
+}
+
+div {
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+    background-color:white;
+}
+
+.newDiv {
+	width: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0;
+    background-color:white;
+}
