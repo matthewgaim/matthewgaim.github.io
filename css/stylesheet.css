@@ -8,16 +8,20 @@ body {
 
 .mainText {
   font-size: 30px;
+  font-family: Tahoma, Geneva, sans-serif;
   color:black;
 }
 
-#links {
-	font-size:25px;
-	color:red;
+.first {
+	width: 1000px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+    background-color:white;
 }
 
 div {
-	width: 320px;
+	width: 500px;
     padding: 10px;
     border: 5px solid gray;
     margin: 0; 
