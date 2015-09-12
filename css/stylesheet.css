@@ -35,3 +35,8 @@ div {
     margin: 0;
     background-color:white;
 }
+
+.invisible {
+  color:white;
+  font-size: 6px;
+}
