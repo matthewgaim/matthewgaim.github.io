@@ -42,7 +42,7 @@
 
 .links {
   background:#CCCCFF;
-  height:20em;
+  height:17em;
 }
 
 .invisible {
@@ -57,4 +57,12 @@
 
 .pics:hover {
     -webkit-filter: grayscale(0);
+}
+
+.heart{
+  color:red;
+}
+
+.smalltext{
+  font-size:25px;
 }
