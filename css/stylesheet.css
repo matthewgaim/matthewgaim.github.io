@@ -5,13 +5,16 @@
 
 .titleText{
   font-family: 'Advent Pro', sans-serif;
-  color:white;
+  color:black;
   font-size:50px;
 }
 
 .start{
-  background:#6666FF;
+  background: url("http://i.kinja-img.com/gawker-media/image/upload/s--omFUK3wV--/c_fit,f_auto,fl_progressive,q_80,w_636/ed1njkgybuifepqy5jzn.gif") no-repeat center center;
+  background-size:cover;
 }
+
+
 
 .mainText {
   font-size: 30px;
