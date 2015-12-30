@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="script/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="script/typed.js"></script>
+    <link rel="shortcut icon" href="logos/favicon.ico" type="image/x-icon" />
+  </head>
+  <script type="text/javascript">
+    var hits = 0;
+    function hitmarker(website){
+      hits++;
+      console.log(hits);
+      if(hits === 3){
+          var triple = new Audio("triple.mp3");
+          triple.play();
+      }
+      if(hits === 6){
+          var six = new Audio("wombocombo.mp3");
+          six.play();
+      }
+      if(hits === 9){
+          var six = new Audio("9.mp3");
+          six.play();
+      }
+      var audio = new Audio("hitmarker.mp3");
+      audio.play();
+      if(website.length > 0){
+        window.open(website);
+      }
+      else{}
+    }
+  </script>
+  <body>
+    <audio autoplay>
+      <source src="airhorn.mp3" type="audio/mpeg">
+    </audio>
+      <center>
+        <span class="name"></span>
+        <br><br><br><br><br>
+        <a href="javascript:hitmarker()"><img class="matthew" src="matthew.jpg" title="The Most Handsome Teen of 2015" /></a>
+        <br>
+        <ul>
+          <li><a href="javascript:hitmarker('https://www.github.com/matthewgaim')"><img src="logos/github-icon.png" title="GitHub" /></a></li>
+          <li><a href="javascript:hitmarker('https://www.facebook.com/matthew.gaim')"><img src="logos/facebook_logo.png" title="FaceBook" /></a></li>
+          <li><a href="javascript:hitmarker('MAILTO:matthewgaim@gmail.com')"><img src="logos/gmail.png" title="GMail" /></a></li>
+        </ul>
+      </center>
+  </body>
+  <br><br><br><br><br>
+  <footer>
+    <center>
+       <b>Made with <font color="red">&#10084;</font> in San Leandro</b>
+    </center>
+  </footer>
+</html>
