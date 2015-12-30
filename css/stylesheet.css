@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .name{
   color:black;
   font-family:'Lobster';
@@ -57,3 +58,76 @@ footer{
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+=======
+.matthew {
+  border-radius: 50%;
+}
+
+
+.titleText{
+  font-family: 'Advent Pro', sans-serif;
+  color:black;
+  font-size:50px;
+}
+
+.start{
+  background: url("http://i.kinja-img.com/gawker-media/image/upload/s--omFUK3wV--/c_fit,f_auto,fl_progressive,q_80,w_636/ed1njkgybuifepqy5jzn.gif") no-repeat center center;
+  background-size:cover;
+}
+
+
+
+.mainText {
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  color:black;
+  text-decoration:none;
+}
+
+.mainText > a{
+	text-decoration:none;
+	color:blue;
+	transition: all 0.2s ease;
+}
+
+.mainText > a:hover{
+	color:red;
+}
+
+.first {
+	background:#FF4D4D;
+  height:20em;
+}
+
+.projects{
+  background:#009900;
+  height:20em;
+}
+
+.links {
+  background:#CCCCFF;
+  height:17em;
+}
+
+.invisible {
+  color:#CCCCFF;
+  font-size: 6px;
+}
+
+.pics {
+    -webkit-filter: grayscale(1);
+		-webkit-transition:ease 0.5s;
+}
+
+.pics:hover {
+    -webkit-filter: grayscale(0);
+}
+
+.heart{
+  color:red;
+}
+
+.smalltext{
+  font-size:25px;
+}
+>>>>>>> 1464c33a3144bb13388d22eda88348b3e1eea1c2
