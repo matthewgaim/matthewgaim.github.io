@@ -9,4 +9,7 @@ $(document).ready(function(){
     "AND HIS NAME IS MATTHEW GAIM!",],
     typeSpeed: 15
   });
+  $(".logos").hover(function(){
+    $(this).addClass("animated rubberBand");
+  });
 });
