@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".name").typed({
-    strings: ["","Who is he?",
+    strings: ["Who is he?",
     "A High School programmer",
     "Vice President of Hack Club SLHS",
     "What does he know, You might be asking...",
@@ -10,6 +10,6 @@ $(document).ready(function(){
     typeSpeed: 15
   });
   $(".logos").hover(function(){
-    $(this).addClass("animated rubberBand");
+    $(this).addClass("animated jello");
   });
 });
