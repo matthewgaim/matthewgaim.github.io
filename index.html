@@ -1,62 +1,55 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Matthew Gaim</title>
-    <script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
-    <link rel="stylesheet" href="css/stylesheet.css" media="screen" title="no title" charset="utf-8">
-    <script type="text/javascript" src="script/script.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="script/typed.js"></script>
-    <link rel="shortcut icon" href="logos/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/animate.css">
-  </head>
-  <script type="text/javascript">
-    var hits = 0;
-    function hitmarker(website){
-      hits++;
-      console.log(hits);
-      if(hits === 3){
-          var triple = new Audio("triple.mp3");
-          triple.play();
-      }
-      if(hits === 6){
-          var six = new Audio("9.mp3");
-          six.play();
-      }
-      var audio = new Audio("hitmarker.mp3");
-      audio.play();
-      if(website.length > 0){
-        window.open(website);
-      }
-      else{}
-    }
-  </script>
-  <body>
-    <div class="background">
+    <head>
+        <title>Matthew Gaim</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <link rel="stylesheet" href="css/animate.css" type="text/css"></link>
+        <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="script/typed.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="name"></h1>
+            <img src="matthew.jpg"></img>
+        </header>
+        <div class="border"></div>
+        <div class="about">
+            <center>
+                <h1>Projects</h1>
+                <br><br>
+                <ul class="projects">
+                    <h2>Admoneo</h2>
+                    <a href="https://github.com/mydogisjibe/admoneo"><img src="pics/admoneo.png"></img></a>
+                </ul>
+                <ul class="projects">
+                    <h2>GoatsMeet</h2>
+                    <a href="https://github.com/6hackergodx9/goatsmeet"><img src="pics/goatsmeet.png"></img></a>
+                </ul>
+                 <ul class="projects">
+                    <h2>FoodPict</h2>
+                    <a href="https://github.com/rnehoran/FoodPict"><img src="pics/foodpict.png"></img></a>
+                </ul>
+            </center>
+        </div>
+        <div class="border"></div>
+        <div class="social">
+            <h1>My Links</h1>
+            <br><br>
+            <center>
+                <a href="https://www.linkedin.com/in/matthewgaim"><img src="pics/linkedin.svg"></img></a>
+                <a href="https://www.github.com/matthewgaim"><img src="pics/github.svg"></img></a>
+                <a href="MAILTO:matthewgaim.com"><img src="pics/gmail.svg"></img></a>
+                <a href="https://www.facebook.com/matthew.gaim"><img src="pics/facebook.svg"></img></a>
+            </center>
+        </div>
+    </body>
+    <div class="madewith">
+            <br>
+            <h3>Made with  <font color="red">&#9829</font>  by Matthew Gaim</h3>
     </div>
-    <div class="main">
-    <audio autoplay>
-      <source src="airhorn.mp3" type="audio/mpeg">
-    </audio>
-      <center>
-        <div class="animated bounce name"></div>
-        <br><br><br><br><br>
-        <a href="javascript:hitmarker()"><img class="matthew" src="matthew.jpg" title="The Most Handsome Teen of 2015" /></a>
-        <br><br><br><br>
-        <ul>
-          <li><a href="javascript:hitmarker('https://www.github.com/matthewgaim')"><img class="logos git" src="logos/1455599961_github.svg" title="GitHub" /></a></li>
-          <li><a href="javascript:hitmarker('https://www.facebook.com/matthew.gaim')"><img class="logos" src="logos/1455600132_square-facebook.svg" title="FaceBook" /></a></li>
-          <li><a href="javascript:hitmarker('MAILTO:matthewgaim@gmail.com')"><img class="logos" src="logos/1455600148_Gmail.svg" title="GMail" /></a></li>
-          <li><a href="javascript:hitmarker('https://www.linkedin.com/in/matthewgaim')"><img class="logos" src="logos/1455599978_square-linkedin.svg" title="LinkedIn" /></a></li>
-        </ul>
-      </center>
-  <br><br><br><br><br>
-  <footer>
-    <center>
-       <b>Made with <font color="red">&#10084;</font> in San Leandro</b>
-    </center>
-  </footer>
-</div>
-  </body>
 </html>

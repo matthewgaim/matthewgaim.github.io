@@ -1,0 +1,106 @@
+header{
+    background-image:url("http://murray.seattle.gov/wp-content/uploads/2015/10/2013_Seattle_Skyline.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100vh;
+    justify-content:center;
+}
+
+header img{
+    border-radius:50%;
+}
+
+header h1{
+    height:100px;
+    font-size:100px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.border{
+    background-color:green;
+    height:10vh;
+}
+
+.about{
+    padding: 1px 0px 0px 0px;
+    height:90vh;
+    background-color:honeydew;
+}
+
+.about h1{
+    color:green;
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.projects{
+    display:inline-block;
+    float:inherit;
+}
+
+.projects img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.social h1{
+    color:green;
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.social img{
+    margin:20px;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+}
+
+.social img:hover{
+    -webkit-filter:grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+}
+
+.social{
+  background-color:honeydew;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.madewith{
+  background-color:gray;
+  height:15vh;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+.madewith h3{
+    font-size:50px;
+    font-family: 'Lobster', cursive;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
