@@ -1,0 +1,45 @@
+body{
+  background-image: url("../img/background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.home{
+  height:100vh;
+}
+h1{
+  color:white;
+  font-family: 'Lobster',cursive;
+  font-size: 50px;
+  font-size: 6.5vw;
+}
+
+.about{
+  background-color:#05B2D9;
+  width:100%;
+  display:inline-block;
+}
+
+.about-content{
+  font-family: "Oswald";
+  font-size: 30px;
+  font-size: 3.4vw;
+}
+
+.projects{
+  display:inline-block;
+  background-color:#05d996;
+  width:100%;
+}
+
+.links{
+  width:100%;
+  background-color:#d99605;
+  display:inline-block;
+  
+}
+
+.links img{
+  width:200px;
+  height:200px;
+}
