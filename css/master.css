@@ -14,6 +14,10 @@ h1{
   font-size: 6.5vw;
 }
 
+h2{
+  font-size: 4.5vw;
+}
+
 .about{
   background-color:#05B2D9;
   width:100%;
@@ -22,8 +26,9 @@ h1{
 
 .about-content{
   font-family: "Oswald";
-  font-size: 30px;
   font-size: 3.4vw;
+  display:inline-block;
+
 }
 
 .projects{
@@ -36,10 +41,23 @@ h1{
   width:100%;
   background-color:#d99605;
   display:inline-block;
-  
 }
 
-.links img{
-  width:200px;
-  height:200px;
+.contactImages{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contactImages img{
+  flex: 1 0 8em;
+}
+
+.description{
+  float:left;
+  width:50%;
+}
+
+.skillSet{
+  float:right;
+  width:50%;
 }
