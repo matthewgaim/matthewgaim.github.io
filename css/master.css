@@ -1,63 +1,27 @@
 body{
-  background-image: url("../img/background.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
+  background: rgb(244,218,229);
+  background: linear-gradient(90deg, rgba(244,218,229,1) 0%, rgba(217,75,75,1) 100%);
 }
 
 .home{
-  height:100vh;
+  height:100%;
+  width:100%;
 }
 h1{
   color:white;
   font-family: 'Lobster',cursive;
-  font-size: 50px;
-  font-size: 6.5vw;
+  font-size: 35px;
 }
 
-h2{
-  font-size: 4.5vw;
+figure img{
+	height:100px;
+	width: 100px;
 }
 
-.about{
-  background-color:#05B2D9;
-  width:100%;
-  display:inline-block;
+.contact img:hover{
+	animation: bounce 1s;
 }
 
-.about-content{
-  font-family: "Oswald";
-  font-size: 3.4vw;
-  display:inline-block;
-
-}
-
-.projects{
-  display:inline-block;
-  background-color:#05d996;
-  width:100%;
-}
-
-.links{
-  width:100%;
-  background-color:#d99605;
-  display:inline-block;
-}
-
-.contactImages{
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.contactImages img{
-  flex: 1 0 8em;
-}
-
-.description{
-  float:left;
-  width:50%;
-}
-
-.skillSet{
-  float:right;
-  width:50%;
+.contact{
+	padding-bottom: 1em;
 }
