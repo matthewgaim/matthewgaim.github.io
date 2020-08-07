@@ -18,10 +18,23 @@
     margin-top: 2vmin;
 }
 
-.container a img:hover{
-    /* background-color: 'white'; */
-    filter: invert(100%);
-    transform: translateY(-10px);
-    transition: 0.4s;
+@keyframes floating {
+    from {
+        transform: translateY(0px);
+        filter: invert(0%);
+    }
+    to {
+        transform: translateY(-10px);
+        filter: invert(100%);
+    }
 }
 
+
+.container a img:hover{
+    /* filter: invert(100%);
+    transform: translateY(-10px); */
+    animation-duration: 0.8s;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
