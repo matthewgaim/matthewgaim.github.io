@@ -1,0 +1,27 @@
+.container {
+    min-height: 10vh;
+    background-color: #dba75b;
+    mix-blend-mode: luminosity;
+    align-items: center;
+    align-content: center;
+}
+
+.container a{
+    margin: 2vw;
+}
+
+.findMeAt {
+    font-weight: bold;
+}
+
+.socials {
+    margin-top: 2vmin;
+}
+
+.container a img:hover{
+    /* background-color: 'white'; */
+    filter: invert(100%);
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+

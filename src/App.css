@@ -3,6 +3,17 @@
   background-color: #fff4e6;
 }
 
+.App-header {
+  background-color: #fff4e6;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(2px + 2vmin);
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px;
+}
+
 .personal-image {
   height: 40vmin;
   width: 30vmin;
@@ -14,16 +25,6 @@
 
 .description{
   margin-top: 10vh;
-}
-
-.App-header {
-  background-color: #fff4e6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(5px + 2vmin);
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .intro {
@@ -41,7 +42,8 @@
   font-size: smaller;
 }
 
-.languages {
-  align-items: center;
-  align-content: center;
+.stonksLink{
+  color: #3a170d;
+  font-weight: bold;
+  text-decoration: none;
 }

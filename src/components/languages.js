@@ -54,10 +54,10 @@ const languages = (props) => {
     );
     
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [currentList, setCurrentList] = useState(databaseList);
+    const [currentList, setCurrentList] = useState(webDevList);
 
     return (
-        <>
+        <div >
             <h3>Knowledgable Areas</h3>
             <div>
                 <button onClick={()=>setCurrentList(webDevList)}>Web Development</button>
@@ -65,7 +65,7 @@ const languages = (props) => {
                 <button onClick={()=>setCurrentList(databaseList)}>Databases</button>
             </div>
             <ul style={{listStyle: "none"}}>{currentList}</ul>
-        </>
+        </div>
     );
 };
 
