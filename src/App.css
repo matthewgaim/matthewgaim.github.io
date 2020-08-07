@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #fff4e6;
+}
+
+.App-header {
+  background-color: #fff4e6;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(2px + 2vmin);
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px;
+}
+
+.personal-image {
+  height: 40vmin;
+  width: 30vmin;
+  border-radius: 20px;
+  pointer-events: none;
+  margin-right: 1vw;
+  margin-top: 10vh;
+}
+
+.description{
+  margin-top: 10vh;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  color: #000b19;
+  font-weight: bold;
+}
+
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.stonksLink{
+  color: #3a170d;
+  font-weight: bold;
+  text-decoration: none;
+}
