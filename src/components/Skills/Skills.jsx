@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import './Skills.css';
-const Skills = (props) => {
+const Skills = () => {
     // List of Web Development Languages
-
     const webDevList = [{
             language: 'HTML',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png'
@@ -41,7 +40,7 @@ const Skills = (props) => {
         </li>
     );
 
-    // List of DB languages
+    // List of DB's & Cloud Platforms
     const databaseList = [{
             language: 'Redis',
             image: 'https://cdn.worldvectorlogo.com/logos/redis.svg'
@@ -62,6 +61,7 @@ const Skills = (props) => {
         </li>
     );
 
+    // List of Tools
     const otherList = [{
         language: 'Git',
         image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg'
@@ -83,7 +83,7 @@ const Skills = (props) => {
 
     return (
         <div>
-            <p className='text-5xl p-3 text-center'>Skillset</p>
+            <p className='text-5xl font-semibold p-3 text-center'>Skills</p>
             <div>
                 <div className={currentList === 0 ? "buttonActive" : "button"} onClick={()=>setCurrentList(0)}>Web Development</div>
                 <div className={currentList === 1 ? "buttonActive" : "button"} onClick={()=>setCurrentList(1)}>OOPs</div>
