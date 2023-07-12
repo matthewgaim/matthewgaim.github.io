@@ -1,9 +1,10 @@
-import './Top.css'
+import './Top.css';
+import headshot from '../../assets/img/matthew.jpg';
 
 function Top() {
   return (
       <div className='intro flex flex-wrap min-h-screen w-auto'>
-        <img className='max-w-sm h-auto rounded-full p-8' src="https://matthewgaim.github.io/static/media/matthew.adcd1bcb.jpg" alt="Headshot" />
+        <img className='max-w-sm h-auto rounded-full p-8' src={headshot} alt="Headshot" />
         <div className='p-8'>
           <p className='text-5xl p-1'>Hi, I'm Matthew Gaim</p>
           <p className='text-3xl p-1'>Software Engineer</p>
